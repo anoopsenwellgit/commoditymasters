@@ -28,8 +28,6 @@
     box-sizing: border-box;
   }
   
-  
-  
   .wrapper {
     background: linear-gradient(60deg, #420285, #08BDBD);
     height: 63%;
@@ -217,3 +215,38 @@
       background-color: gray;
   }
    
+  .bulletList{
+    background-color: #a95656;;
+    padding: 10px;
+    box-shadow: grey 4px 5px 10px;
+  margin-top: 10px;
+  
+  }
+  .bulletList ul li { margin-left: 25%;}
+  .bulletList ul{
+    
+    background-color: #ab6868;
+    border-radius: 22px;
+    margin-left: auto;
+    color: white;
+    margin-top: 10px;
+    list-style-image: url('../../../../assets/check.svg');
+  }
+  .content{
+    text-align: justify;
+  }
+  .content img{
+    float: left;
+    padding-right: 10px;
+  }
+  .title{
+    font-size: 15px;
+    background-color: rgb(204, 150, 150);
+    margin: auto;
+    position: relative;
+    padding: 7px;
+    text-align: center;
+  }
+.welcome h1{
+  font-size: xx-large;
+}
