@@ -14,8 +14,8 @@
     overflow: hidden;
 }
 #tracker h3 {
-    padding:7px 8px; 
-    width: 80%;
+    padding:11px 13px; 
+    width: 100%;
     background: #025b92; 
     color: white; 
     font-size: small;
@@ -30,10 +30,18 @@
   
   .wrapper {
     background: linear-gradient(60deg, #420285, #08BDBD);
-    height: 63%;
     width: 100%;
     display: flex;
     justify-content: center;
+    max-width: 100%;
+    height: auto;
+    padding-top: 55%;
+    padding-bottom: 60%;
+  }
+  #wrapperhead{
+    font-size: large;
+    border-radius:25px;
+     padding-left: 3%;
   }
   
   .carousel {
@@ -108,7 +116,7 @@
     width: 100%;
     background-color: #fff;
     border-radius: 8px;
-    padding: 16px 20px 16px 70px;
+    padding: 1px 15px 2px 65px;
   }
   
   .title {
@@ -214,6 +222,7 @@
   .cardtop{
       background-color: gray;
   }
+<<<<<<< HEAD
    
   .bulletList{
     background-color: #a95656;;
@@ -250,3 +259,46 @@
 .welcome h1{
   font-size: xx-large;
 }
+=======
+
+
+  @media only screen and (max-width: 768px) {
+    .row{
+      display: inline;
+    }
+    .wrapper{
+      max-width: 50%;
+     height: auto;
+     padding-top: 20%;
+     padding-bottom: 20%;
+    }
+    .col-sm-3{
+      width: 100%;
+    }
+    #wrapperhrad{
+      font-size:xx-large;
+      padding-left: 20%;
+      margin-left: -1%;
+      border-radius: 25px;
+    }
+    div#benefits .col-sm-4 {
+      padding-left: 30%;
+      padding-bottom: 5%;
+    }
+  }
+  @media only screen and (max-width:500px){
+    
+    .wrapper{
+      max-width: 100%;
+      height: auto;
+      padding-top: 50%;
+    padding-bottom: 50%;
+    }
+    div#benefits .col-sm-4{
+      padding-left: 0%;
+      padding-bottom: 5%;
+      padding-right: 75%;
+    }
+  }
+   
+>>>>>>> a7f3084f5376887274b57d01c4bfb2b6a7539aa0
